@@ -20,7 +20,7 @@ def transcribe_audio(file_path):
 def Text_summarize(text):
 
     client = OpenAI(
-        api_key='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',
+        api_key='nhap_key',
         base_url='https://openrouter.ai/api/v1',
     )
 
